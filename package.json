@@ -18,7 +18,7 @@
     "trailingComma": "all"
   },
   "repository": {
-    "type": "git",
+    "type": "git+https://github.com/BuiTanLan/jobber-share.git",
     "url": ""
   },
   "publishConfig": {
@@ -45,5 +45,14 @@
     "@types/express": "^4.17.21",
     "@types/jsonwebtoken": "^9.0.5",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "cloudinary": "^1.41.0",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "winston": "^3.11.0",
+    "winston-elasticsearch": "^0.17.4"
   }
 }
