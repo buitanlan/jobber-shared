@@ -35,7 +35,7 @@
     }
   },
   "keywords": [],
-  "name": "@tanlan/jobber-shared",
+  "name": "@buitanlan/jobber-shared",
   "author": "buitanlan",
   "license": "ISC",
   "types": "./src/index.d.ts",
