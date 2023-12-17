@@ -1,3 +1,4 @@
 docker-volumes
 .idea
 node_modules
+/build/
