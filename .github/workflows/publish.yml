@@ -23,7 +23,7 @@ jobs:
       - run: pnpm install
       - run: pnpm run build
       - run: |
-          echo @tanlan:https://npm.pkg.github.com/ > build/.npmrc
+          echo @buitanlan:https://npm.pkg.github.com/ > build/.npmrc
           echo '//npm.pkg.github.com/:_authToken=${NPM_TOKEN}' >> build/.npmrc
       - run: pnpm publish --no-git-checks
         working-directory: ./build
