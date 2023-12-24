@@ -18,8 +18,8 @@
     "trailingComma": "all"
   },
   "repository": {
-    "type": "git+https://github.com/BuiTanLan/jobber-share.git",
-    "url": ""
+    "type": "git",
+    "url": "git+https://github.com/buitanlan/jobber-share.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
