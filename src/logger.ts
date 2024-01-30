@@ -2,15 +2,15 @@ import { ElasticsearchTransformer, ElasticsearchTransport, LogData } from 'winst
 import winston, { Logger } from 'winston';
 
 export const esTransformer = (logData: LogData) => ElasticsearchTransformer(logData);
-export const winstonLogger = (elasticsearchNode: string, name:string, level: string) => {
+export const winstonLogger = (elasticsearchNode: string, name: string, level: string) => {
   const options = {
     console: {
       level,
       handleExceptions: true,
       json: false,
-      colorize: true
+      colorize: true,
     },
-    elasticsearch : {
+    elasticsearch: {
       level,
       transformer: esTransformer,
       clientOpts: {
@@ -18,17 +18,14 @@ export const winstonLogger = (elasticsearchNode: string, name:string, level: str
         log: level,
         maxRetries: 2,
         requestTimeout: 10000,
-        sniffOnStart: false
+        sniffOnStart: false,
       },
-    }
+    },
   };
   const esTransport = new ElasticsearchTransport(options.elasticsearch);
   return winston.createLogger({
     exitOnError: false,
-    defaultMeta: {service: name},
-    transports: [
-      new winston.transports.Console(options.console),
-      esTransport
-    ]
+    defaultMeta: { service: name },
+    transports: [new winston.transports.Console(options.console), esTransport],
   });
-}
+};
