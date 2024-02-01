@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@elastic/elasticsearch':
-    specifier: ^8.11.0
-    version: 8.11.0
+    specifier: ^8.12.0
+    version: 8.12.0
   cloudinary:
     specifier: ^2.0.0
     version: 2.0.0
@@ -1327,8 +1327,8 @@ packages:
     dev: false
     optional: true
 
-  /@elastic/elasticsearch@8.11.0:
-    resolution: {integrity: sha512-1UEQFdGLuKdROLJnMTjegasRM3X9INm/PVADoIVgdTfuv6DeJ17UMuNwYSkCrLrC0trLjjGV4YganpbJJX/VLg==}
+  /@elastic/elasticsearch@8.12.0:
+    resolution: {integrity: sha512-cgUfEYyyXao/VqqS5RGsRMBKVck1fhPYX2Aux7jOwPqMAGE+VE+ra7KhU0T2ZqIpahPCbvx4ro4WPzhBrsVH6A==}
     engines: {node: '>=18'}
     dependencies:
       '@elastic/transport': 8.4.0
@@ -3968,7 +3968,7 @@ packages:
     resolution: {integrity: sha512-smPDzR2gtAAQ2LibjoJF5aKOeH2sj8KPK7KKVsAncQRUFWjKpih5B6aAelCMc8svBKeCX+QQjE7DXG8B0VgN2A==}
     engines: {node: '>= 8.0.0'}
     dependencies:
-      '@elastic/elasticsearch': 8.11.0
+      '@elastic/elasticsearch': 8.12.0
       dayjs: 1.11.10
       debug: 4.3.4
       lodash.defaults: 4.2.0

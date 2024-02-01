@@ -1,5 +1,5 @@
 import { ElasticsearchTransformer, ElasticsearchTransport, LogData } from 'winston-elasticsearch';
-import winston, { Logger } from 'winston';
+import winston from 'winston';
 
 export const esTransformer = (logData: LogData) => ElasticsearchTransformer(logData);
 export const winstonLogger = (elasticsearchNode: string, name: string, level: string) => {
