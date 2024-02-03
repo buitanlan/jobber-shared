@@ -23,7 +23,7 @@ jobs:
 
       - run: pnpm install
       - run: pnpm run build
-      - run: pnpm publish --no-git-checks
+      - run: pnpm publish --no-git-checks --scope=@buitanlan --access=public
       
         working-directory: ./build
         env:
