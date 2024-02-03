@@ -24,7 +24,7 @@
     "url": "git+https://github.com/buitanlan/jobber-shared.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   },
   "files": [
     "build",
