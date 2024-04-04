@@ -40,7 +40,7 @@
     "*": "pnpm run format"
   },
   "keywords": [],
-  "name": "@buitanlan/jobber-shared",
+  "name": "@tanlan/jobber-shared",
   "author": "buitanlan",
   "license": "ISC",
   "types": "./src/index.d.ts",
