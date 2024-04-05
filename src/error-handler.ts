@@ -6,7 +6,7 @@ export interface IErrorResponse {
   message: string;
   status: string;
   comingFrom: string;
-  serializeError(): IError;
+  serializeErrors(): IError;
 }
 
 export interface IError {
