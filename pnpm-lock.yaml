@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@elastic/elasticsearch':
-    specifier: ^8.13.0
-    version: 8.13.0
+    specifier: ^8.13.1
+    version: 8.13.1
   cloudinary:
     specifier: ^2.1.0
     version: 2.1.0
@@ -21,8 +21,8 @@ dependencies:
     specifier: ^9.0.2
     version: 9.0.2
   mongoose:
-    specifier: 8.2.4
-    version: 8.2.4
+    specifier: 8.3.1
+    version: 8.3.1
   winston:
     specifier: ^3.13.0
     version: 3.13.0
@@ -56,8 +56,8 @@ devDependencies:
     specifier: 15.2.2
     version: 15.2.2
   typescript:
-    specifier: ^5.4.4
-    version: 5.4.4
+    specifier: ^5.4.5
+    version: 5.4.5
 
 packages:
 
@@ -1374,18 +1374,18 @@ packages:
     dev: false
     optional: true
 
-  /@elastic/elasticsearch@8.13.0:
-    resolution: {integrity: sha512-OAYgzqArPqgDaIJ1yT0RX31YCgr1lleo53zL+36i23PFjHu08CA6Uq+BmBzEV05yEidl+ILPdeSfF3G8hPG/JQ==}
+  /@elastic/elasticsearch@8.13.1:
+    resolution: {integrity: sha512-2G4Vu6OHw4+XTrp7AGIcOEezpPEoVrWg2JTK1v/exEKSLYquZkUdd+m4yOL3/UZ6bTj7hmXwrmYzW76BnLCkJQ==}
     engines: {node: '>=18'}
     dependencies:
-      '@elastic/transport': 8.4.0
+      '@elastic/transport': 8.4.1
       tslib: 2.6.2
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@elastic/transport@8.4.0:
-    resolution: {integrity: sha512-Yb3fDa7yGD0ca3uMbL64M3vM1cE5h5uHmBcTjkdB4VpCasRNKSd09iDpwqX8zX1tbBtxcaKYLceKthWvPeIxTw==}
+  /@elastic/transport@8.4.1:
+    resolution: {integrity: sha512-/SXVuVnuU5b4dq8OFY4izG+dmGla185PcoqgK6+AJMpmOeY1QYVNbWtCwvSvoAANN5D/wV+EBU8+x7Vf9EphbA==}
     engines: {node: '>=16'}
     dependencies:
       debug: 4.3.4
@@ -2994,8 +2994,8 @@ packages:
       safe-buffer: 5.2.1
     dev: false
 
-  /kareem@2.5.1:
-    resolution: {integrity: sha512-7jFxRVm+jD+rkq3kY0iZDJfsO2/t4BBPeEb2qKn2lR/9KhuksYk5hxzfRYWMPV8P/x2d0kHD306YyWLzjjH+uA==}
+  /kareem@2.6.3:
+    resolution: {integrity: sha512-C3iHfuGUXK2u8/ipq9LfjFfXFxAZMQJJq7vLS45r3D9Y2xQ/m4S8zaR4zMLFWh9AsNPXmcFfUDhTEO8UIC/V6Q==}
     engines: {node: '>=12.0.0'}
     dev: false
 
@@ -3254,8 +3254,8 @@ packages:
       whatwg-url: 13.0.0
     dev: false
 
-  /mongodb@6.3.0:
-    resolution: {integrity: sha512-tt0KuGjGtLUhLoU263+xvQmPHEGTw5LbcNC73EoFRYgSHwZt5tsoJC110hDyO1kjQzpgNrpdcSza9PknWN4LrA==}
+  /mongodb@6.5.0:
+    resolution: {integrity: sha512-Fozq68InT+JKABGLqctgtb8P56pRrJFkbhW0ux+x1mdHeyinor8oNzJqwLjV/t5X5nJGfTlluxfyMnOXNggIUA==}
     engines: {node: '>=16.20.1'}
     peerDependencies:
       '@aws-sdk/credential-providers': ^3.188.0
@@ -3286,13 +3286,13 @@ packages:
       mongodb-connection-string-url: 3.0.0
     dev: false
 
-  /mongoose@8.2.4:
-    resolution: {integrity: sha512-da/r6zpG+2eAXuhBGUnL6jcBd03zlytoCc5/wq+LyTsmrY9hhPQmSpnugwnfqldtBmUOhB6iMLoV4hNtHRq+ww==}
+  /mongoose@8.3.1:
+    resolution: {integrity: sha512-D78C+s7QI4+pJQhs3XbOxzrHFEti4x+BDhaH94QrdV1/cmMA7fHc50LgLSXjzA/5q89TBK8DAXyf3VwDZbQJlA==}
     engines: {node: '>=16.20.1'}
     dependencies:
       bson: 6.6.0
-      kareem: 2.5.1
-      mongodb: 6.3.0
+      kareem: 2.6.3
+      mongodb: 6.5.0
       mpath: 0.9.0
       mquery: 5.0.0
       ms: 2.1.3
@@ -4140,8 +4140,8 @@ packages:
     dev: false
     optional: true
 
-  /typescript@5.4.4:
-    resolution: {integrity: sha512-dGE2Vv8cpVvw28v8HCPqyb08EzbBURxDpuhJvTrusShUfGnhHBafDsLdS1EhhxyL6BJQE+2cT3dDPAv+MQ6oLw==}
+  /typescript@5.4.5:
+    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
@@ -4313,7 +4313,7 @@ packages:
     resolution: {integrity: sha512-2b6t/tZL/pvy/ELE56RdCquWjquK3SUoIdhl7OgCT/nGGriqB4CUhLcFVPcvTKoThBokSNPHggkw5TT4NhqDFQ==}
     engines: {node: '>= 8.0.0'}
     dependencies:
-      '@elastic/elasticsearch': 8.13.0
+      '@elastic/elasticsearch': 8.13.1
       dayjs: 1.11.10
       debug: 4.3.4
       lodash.defaults: 4.2.0
