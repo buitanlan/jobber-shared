@@ -12,8 +12,8 @@ importers:
         specifier: ^8.13.1
         version: 8.13.1
       cloudinary:
-        specifier: ^2.1.0
-        version: 2.1.0
+        specifier: ^2.2.0
+        version: 2.2.0
       express:
         specifier: ^4.19.2
         version: 4.19.2
@@ -987,8 +987,8 @@ packages:
     resolution: {integrity: sha512-nPdaFdQ0h/GEigbPClz11D0v/ZJEwxmeVZGeMo3Z5StPtUTkA9o1lD6QwoirYiSDzbcwn2XcjwmCp68W1IS4TA==}
     engines: {node: '>=18'}
 
-  cloudinary@2.1.0:
-    resolution: {integrity: sha512-v7ywNaPHoM8N8ZuWieWK5tENIgB+9X4QhRaJHfHefd/Q7ZTzppLa8GX7IJMsF5mdQGL2TD2RbM8RZ+rrnsfP5w==}
+  cloudinary@2.2.0:
+    resolution: {integrity: sha512-akbLTZcNegGSkl07Frnt9fyiK9KZ2zPS+a+j7uLrjNYxVhDpDdIBz9G6snPCYqgk+WLVMRPfXTObalLr5L6g0Q==}
     engines: {node: '>=9'}
 
   color-convert@1.9.3:
@@ -3341,7 +3341,7 @@ snapshots:
       slice-ansi: 5.0.0
       string-width: 7.1.0
 
-  cloudinary@2.1.0:
+  cloudinary@2.2.0:
     dependencies:
       lodash: 4.17.21
       q: 1.5.1
