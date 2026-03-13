@@ -9,23 +9,19 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
       - uses: actions/setup-node@v4
         with:
           node-version: '24.x'
           registry-url: 'https://registry.npmjs.org'
           scope: '@tanlan'
 
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 10
-
       - run: pnpm install
       - run: pnpm run build
-      - run: pnpm publish --no-git-checks --access=public
-
+      - run: pnpm publish --no-git-checks --access=public --provenance
         working-directory: ./build
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
