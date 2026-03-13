@@ -6,7 +6,7 @@
     "build": "vite build && tsc --emitDeclarationOnly --outDir build/src",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "pnpx prettier \"src/**/*.{ts,html,scss,css}\" --write",
-    "prepare": "husky"
+    "prepare": "husky || true"
   },
   "engines": {
     "node": ">=22"
